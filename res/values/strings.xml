@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">dji_MotionControl</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ground_station">GroundStationActivity</string>
+    <string name="title_activity_djiaoa">DJIAoaActivity</string>
+    <string name="title_activity_select_drone_type">SelectDroneTypeActivity</string>
+    
+    <!-- Select Drone Type Activity -->
+    <string name="title_activity_select_drone">SelectDroneTypeActivity</string>
+    <string name="press_again_exit">Press again to exit application</string>
+    <string name="drone_type_title_p2v">Phantom 2 Vision/Phantom 2 Vision+</string>
+    <string name="drone_type_desc_p2v">showing how to use the sdk interface for p2v/p2v+</string>
+    <string name="drone_type_title_inspire1">Inspire 1/Phantom 3 Professional</string>
+    <string name="drone_type_desc_inspire1">showing how to use the sdk interface for inspire1/Phantom 3 Professional</string>
+    <string name="drone_type_title_p3s">Phantom 3 Advanced</string>
+    <string name="drone_type_desc_p3s">showing how to use the sdk interface for Phantom 3 Advanced</string>
+    <string name="drone_type_title_m100">Matrice 100</string>
+    <string name="drone_type_desc_m100">showing how to use the sdk interface for Matrice 100</string>
+
+</resources>

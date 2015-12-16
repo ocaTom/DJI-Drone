@@ -1,0 +1,87 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/ShowState"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Show the state of the drone..." />
+
+    <RadioGroup
+        android:id="@+id/DroneType"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <RadioButton
+            android:id="@+id/TwoVP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="phanom 2 v+" />
+
+        <RadioButton
+            android:id="@+id/Three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phantom 3" />
+
+        <RadioButton
+            android:id="@+id/M100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M100" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/Disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Disconnect" />
+
+    <EditText
+        android:id="@+id/SampleRate"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="" 
+        android:inputType="number"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/enterSampleRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter" />
+
+    <TextView
+        android:id="@+id/Rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+
+	<Button
+	    android:id="@+id/GS"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Ground Station" />
+
+</TableLayout>
